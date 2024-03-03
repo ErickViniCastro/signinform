@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #b9b9b9;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+}
+
+.form-container {
+    margin: 150px auto;
+    background-color: white;
+    width: 400px;
+    border-radius: 8px;
+}
+
+form {
+    padding: 20px;
+    border-radius: 10px;
+}
+
+form h3 {
+    text-align: center;
+}
+
+form .input-container{
+    margin-bottom: 15px;
+    position: relative;
+}
+
+form .input-container input{
+    padding: 0 55px 0 25px;
+    height: 45px;
+    width: 100%;
+    border-radius: 20px;
+    border: 1px solid #e4e4e4;
+    font-size: 1rem;
+}
+
+.options-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: space-between;
+    width: 100%;
+    padding: 0 20px;
+    margin: 20px auto;
+    color: #818181;
+}
+
+.input-container svg {
+    position: absolute;
+    top: calc(50% - 12px);
+    right: 22px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    height: 45px;
+    color: white;
+    background-color: red;
+    border-radius: 20px;
+    border: none;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+input::placeholder, .input-container svg {
+    color: #818181;
+}
+
+.checkbox-container, .options-container a {
+    display: inline-block;
+    width: 50%;
+}
+
+.options-container a {
+    text-align: right;
+}
+
+.social-media-container {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.social-media-container .icon-container{
+    position: relative;
+    display: inline-block;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+
+.social-media-container .icon-container:nth-child(1) {
+    background-color: rgb(48, 48, 201);
+}
+
+.social-media-container .icon-container:nth-child(2) {
+    background-color: rgb(218, 22, 22);
+}
+
+.social-media-container .icon-container:nth-child(3) {
+    background-color: rgb(90, 90, 255);
+}
+
+.social-media-container .icon-container svg {
+    position: absolute;
+    top: calc(50% - 12px);
+    left: calc(50% - 12px);
+    color: #fff;
+}
+
+p {
+    text-align: center;
+}
+
+hr {
+    color: #ccc;
+}
+
+.footer {
+    margin: 20px auto;
+}
+
+
+
